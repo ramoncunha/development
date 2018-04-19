@@ -19,7 +19,11 @@ html {
 }
 
 body {
-	margin: 0;
+	padding: 0;
+}
+
+.img-responsive {
+	width: 50%;
 }
 
 .firstView {
@@ -43,7 +47,42 @@ body {
 }
 
 .firstElement {
-	background-color: blue;
-	width: 100%;
-	height: 100px;
+	text-align: center;
+	background-color: #F5F5F5;
+	height: auto;
+	white-space: pre-wrap;
+}
+
+.inf1 {
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: "Open Sans";
+}
+
+i.fa-tv {
+	color: #00BFFF;
+	font-size: 50px;
+}
+i.fa-check-circle {
+	color: #00BFFF;
+	font-size: 50px;
+}
+
+i.fa-angle-double-up {
+	color: #00BFFF;
+	font-size: 50px;	
+}
+
+.desc1 {
+	color: #4F4F4F;
+}
+
+.element {
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+.secondElement {
+	text-align: left;
+	white-space: pre-wrap;
 }
