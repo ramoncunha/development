@@ -1,0 +1,49 @@
+/*
+Theme Name: Imovel Theme
+Theme URI: github.com/ramoncunha/development
+Author: Ramon Pires
+Author URI: 
+Description: This theme is for all.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: imoveltheme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.firstView {
+	height: 450px;
+	background: url("img/capa.jpg") fixed no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.titleBox {
+	padding-top: 150px;
+
+}
+
+.titleHead {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.firstElement {
+	background-color: blue;
+	width: 100%;
+	height: 100px;
+}
