@@ -20,16 +20,34 @@ get_header();
 	</div>
 </div>
 
-<div class="secondElement row">
-	<div class="col-md-6">
-		<font class="inf1">Apartamentos amplos</font>
-		<font class="desc1">Diversos tipos de apartamentos estão disponíveis, mas todos eles são amplos e
-		pensados para melhor atender sua família.</font>
-	</div>
-	<div class="col-md-6">
-		<img class="img-responsive" alt="Planta do Quarto" src="<?php echo get_template_directory_uri()?>/img/planta-quarto.jpg">
-	</div>
-</div>
+<?php
+	$args = array('post_type' => 'post', 'showposts' =>2);
+	$my_posts = get_posts($args);
+
+	if($my_posts) : foreach ($my_posts as $post) : setup_postdata($post); ?>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<p class="inf1"><?php the_title(); ?></p>
+				<p class="desc1"><?php the_excerpt(); ?></p>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<img class="img-responsive" alt="Planta do Quarto" src="<?php echo get_template_directory_uri()?>/img/planta-quarto2.jpg">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<img class="img-responsive" alt="Planta da Area de Lazer" src="<?php echo get_template_directory_uri()?>/img/planta-lazer.jpg">
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<p class="inf1">Ampla e diversa área de lazer</p>
+				<p class="desc1">Área de lazer planejada para o divertimento de toda a família, com piscina,
+				quadra, área de churrasco, sala de jogos. Tudo feito com carinho para o desfrute
+				de sua família</p>
+			</div>
+		</div>
+
+	<?php endforeach; endif; ?>
 
 <?php
 get_footer();
