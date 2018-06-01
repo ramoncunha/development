@@ -50,16 +50,6 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    width: 250px;
-    box-sizing: border-box;
-    border-bottom-color: #333;
-    border-right-color: #FFF;
-    margin: 20px 40px;
-}
-
 .menu-navegacao {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -117,14 +107,6 @@ em {
 
 .twitter {
     background-image: url(../img/twitter.png);
-}
-
-.fiat {
-    float: right;
-}
-
-.petrobras {
-    float: left;
 }
 
 cite {
