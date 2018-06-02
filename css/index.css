@@ -1,6 +1,12 @@
 .foto-home {
     height: 200px;
 }
+header {
+    position: relative;
+}
+.subtitulo-principal{
+    font-size: .4em;
+}
 .saudacao p {
     font-size: 1.5em;
     color: #99A;
@@ -67,6 +73,7 @@
     background-color: #999;
     color: #FFF;
     border-bottom: .5em solid #851944;
+    position: relative;
 }
 .blog small {
     position: relative;
@@ -92,4 +99,68 @@ main {
     width: 100%;
     padding-bottom: 0;
     float: none;
+}
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    color: #D5447E;
+    font-weight: bold;
+    font-size: 0.40em;
+    position: absolute;
+}
+.eficiencia {
+    top: 20%;
+    left: 75%;
+}
+.boas-praticas {
+    top: 70%;
+    right: 70%;
+}
+.codigo-limpo {
+    top: 47%;
+    right: 85%;
+}
+.css3 {
+    top: 45%;
+    right: 66%;
+}
+.html5 {
+    top: 42%;
+    left: 80%;
+}
+.javascript {
+    top: 8%;
+    left: 60%;
+}
+.acessibilidade {
+    top: 35%;
+    right: 70%;
+}
+.responsivo {
+    top: 12%;
+    right: 80%;
+}
+.otimizacoes {
+    top: 60%;
+    left: 70%;
+}
+.agilidade {
+    top: 9%;
+    right: 64%;
+}
+.design {
+    top: 37%;
+    left: 65%;
+}
+.essencial-design {
+    color: #E13868;
+    background-color: white;
+}
+.inicio-post {
+    color: black;
+    background-color: white;
+    padding: 1em;
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 30%;
 }
