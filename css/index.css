@@ -75,11 +75,14 @@ header {
     border-bottom: .5em solid #851944;
     position: relative;
 }
+.blog li {
+    width: 50%;
+}
 .blog small {
     position: relative;
     top: -2em;
 }
-.blog li a {
+.blog .post2 a, .blog .post3 a {
     color: #FCF;
     padding: .5em;
     display: block;
@@ -151,16 +154,20 @@ main {
     top: 37%;
     left: 65%;
 }
-.essencial-design {
+.post1 {
     color: #E13868;
-    background-color: white;
+    background-color: #F2FFFC;
+    padding: .5em;
+    display: inline-block;
 }
-.inicio-post {
+.blog .inicio-post {
     color: black;
     background-color: white;
-    padding: 1em;
+    background-color: #F2FFFC;
+    padding: 1.5em;
     position: absolute;
-    width: 50%;
-    top: 30%;
+    top: 4em;
     left: 30%;
+    height: 8em;
+    width: 60%;
 }
