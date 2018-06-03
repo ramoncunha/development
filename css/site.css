@@ -50,6 +50,7 @@ main p {
     color: inherit;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     text-transform: lowercase;
+    text-decoration: none;
 }
 
 .navegacao-site h1 {
