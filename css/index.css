@@ -110,7 +110,13 @@ html {
     position: relative;
     top: -2em;
 }
-.blog .post2 a, .blog .post3 a {
+
+.blog .post1 a:hover,
+.blog .post1 a:focus,
+.blog .post2 a:hover,
+.blog .post2 a:focus,
+.blog .post3 a:hover,
+.blog .post3 a:focus {
     color: #FCF;
     padding: .5em;
     display: block;
@@ -211,11 +217,28 @@ main {
     transform: translate(-50%, -50%) rotate(10deg) translateZ(2px) scale(0.25);
     opacity: .8;
 }
-.post1 {
+.post1:hover,
+.post1:focus,
+.post2:hover,
+.post2:focus,
+.post3:hover,
+.post3:focus {
     color: #E13868;
     background-color: #F2FFFC;
     padding: .5em;
     display: inline-block;
+}
+.inicio-post {
+    display: none;
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
 }
 .blog .inicio-post {
     color: black;
