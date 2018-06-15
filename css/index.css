@@ -217,39 +217,27 @@ main {
     transform: translate(-50%, -50%) rotate(10deg) translateZ(2px) scale(0.25);
     opacity: .8;
 }
-.post1:hover,
-.post1:focus,
-.post2:hover,
-.post2:focus,
-.post3:hover,
-.post3:focus {
-    color: #E13868;
+.blog .inicio-post {
+    color: black;
     background-color: #F2FFFC;
-    padding: .5em;
-    display: inline-block;
-}
-.inicio-post {
+    padding: 1.5em;
+    position: absolute;
+    top: 4em;
+    left: 30%;
+    right: 4em;
+    height: 8em;
     display: none;
 }
 .blog a:hover + .inicio-post,
 .blog a:focus + .inicio-post {
     display: block;
 }
-.blog a:hover,
-.blog a:focus {
+.blog li > a:hover,
+.blog li > a:focus {
     background-color: #F2FFFC;
     color: #F26;
-}
-.blog .inicio-post {
-    color: black;
-    background-color: white;
-    background-color: #F2FFFC;
-    padding: 1.5em;
-    position: absolute;
-    top: 4em;
-    left: 30%;
-    height: 8em;
-    width: 60%;
+    display: inline-block;
+    width: 50ch;
 }
 .titulo-principal {
     -webkit-transform-style: preserve-3d;
